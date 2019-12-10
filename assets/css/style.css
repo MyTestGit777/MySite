@@ -39,6 +39,17 @@
 		float: none;
 	}
 
+
+
+@media (max-width: 962px) {
+	margin-top: 0;
+	}
+
+
+
+
+
+
 	.nav-pills {
 		text-align: center;
 	}
@@ -150,7 +161,7 @@ textarea.form-control {
 footer {
 	color: #666;
 	background: #222;
-	padding: 17px 018px 0;
+	padding: 17px 0 18px 0;
 	border-top: 1px solid #000;
 }
 
