@@ -1,298 +1,587 @@
 <!DOCTYPE html>
+
 <html lang="ru">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-acale=1">
 
-		<title>Кинобаза Bootstrap</title>
+  <head>
 
+    <meta charset="utf-8">
 
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+      <meta name="viewort" content="width=device-width, initial-scale=1"> 
 
-		<link href="assets/css/style.css" rel="stylesheet">
+           <title>Любимые книги</title>
 
-	</head>
-	<body>
-	
+           <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-	<div class="container-fluid">
-		<div class="row">
+           <link href="assets/css/style.css" rel="stylesheet">
 
-			<nav role="navigation" class="navbar navbar-inverse">
-				<div class="container">
+  </head>
 
-				<div class="navbar-header header">
+  <body>
 
-					<div class="container">
 
-						<div class="row">
 
-							<div class="col-lg-12">
-								<h1><a href="index.html">Кинобаза</a></h1>
-								<p>Кино - наша страсть!</p>
-							</div>
+    <div class="container-fluid">
 
-						</div>
+      <div class="row">
 
-					</div>
 
 
-					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+       <nav role="navigatsion" class="navbar navbar-inverse">
 
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+         <div class="container">
 
 
 
-				</div>
+          <div class="navbar-header header">
 
-					<div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+           <div class="container">
 
-						<ul class="nav nav-pills">
-							<li class="active"> <a href="index.html">Главная</a> </li>
-							<li> <a href="films.html">Фильмы</a> </li>
-							<li> <a href="#">Сериалы</a> </li>
-							<li> <a href="rating.html">Рейтинг фильмов</a> </li>
-							<li> <a href="contact.html">Контакты</a> </li>
 
-						</ul>
 
+            <div class="row">
 
-					</div>
 
-				</div>
-			</nav>
 
-		</div>
-	</div>
+              <div class="col-lg-12">
 
+                <h1><a href="index.html">КНИГОЛЮБ</a></h1>
 
-	<div class="wrapper">
+                  <p>Все,что нужно прочитать</p>
 
-		<div class="container">
+              </div>
 
-			<div class="row">
+         </div>
 
-			<div class="col-lg-9 col-lg-push-3">
+      </div>
 
-				<from role="search" class="visible-xs">
-					<div class="form-group">
-						<div class="input-group">
-							<input type="search" class="form-control input-lg" placeholder="Ваш запрос">
-							<div class="input-group-btn">
-								<button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-							</div>
-						</div>
-					</div>
-				</from>
 
-				<h2>Новые фильмы</h2>
-				<hr>
-				<div class="row">
 
-					<div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-						<a href="show.html"><img src="assets/img/inter.png" alt="интерстеллар"></a>
-						<div class="film_label"><a href="show.html">Интерстеллар</a></div>
-					</div>
+      <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"> 
 
-					<div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-						<a href="show.html"><img src="assets/img/matrix.png" alt="матрица"></a>
-						<div class="film_label"><a href="show.html">Матрица</a></div>
-					</div>
+        <span class="icon-bar"></span> 
 
-					<div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-						<a href="show.html"><img src="assets/img/cloud.png" alt="облачный атлас"></a>
-						<div class="film_label"><a href="show.html">Облачный атлас</a></div>
-					</div>
+        <span class="icon-bar"></span>
 
-					<div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-						<a href="show.html"><img src="assets/img/max.png" alt="безумный макс"></a>
-						<div class="film_label"><a href="show.html">Безумный макс</a></div>
-					</div>
+        <span class="icon-bar"></span>
 
+        <span class="icon-bar"></span>
 
-				</div>
+      </button>
 
-				<div class="margin-8"></div>
+    </div>
 
-				<h2>Новыйе сериалы</h2>
-				<hr>
-					<div class="row">
+    <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
 
-						<div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-							<a href="#"><img src="assets/img/xfiles.png" alt=""></a>
-							<div class="film_label"><a href="#">Секретные материалы</a></div>
-						</div>
+      <ul class="nav nav-pills">
 
-						<div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-							<a href="#"><img src="assets/img/silicon.png" alt=""></a>
-							<div class="film_label"><a href="#">Кремневая долинна</a></div>
-						</div>
+        <li class="active"> <a href="index.html">Главная</a> </li>
 
-						<div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-							<a href="#"><img src="assets/img/dead.png" alt=""></a>
-							<div class="film_label"><a href="#">Ходячие мертвецы</a></div>
-						</div>
+        <li> <a href="book.html">Книги</a></li>     
 
-						<div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-							<a href="#"><img src="assets/img/breakingbad.png" alt=""></a>
-							<div class="film_label"><a href="#">Во все тяжкие</a></div>
-						</div>
+        <li> <a href="rating.html">Рейтинг книг</a></li>
 
-					</div>
+        <li> <a href="contact.html">Контакты</a></li>
 
-					<div class="margin-8"></div>
+      </ul>
 
-					<a href="#"><h3>Как снимали Интерстеллар</h3></a>
-					<hr>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam, mollitia. Porro sit iure natus possimus iste perspiciatis est itaque ullam. Blanditiis fuga mollitia, quaerat porro a magnam corporis vel!
-					</p>
-					<a href="#" class="btn btn-warning pull-right"><h3>читать</h3></a>
+    </div>
 
-					<div class="margin-8"></div>
+  </div>
 
-					<a href="#"><h3>Актер Том Хенкс поделился впечатлением о фестивале</h3></a>
-					<hr>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam, mollitia. Porro sit iure natus possimus iste perspiciatis est itaque ullam. Blanditiis fuga mollitia, quaerat porro a magnam corporis vel!
-					</p>
-					<a href="#" class="btn btn-warning pull-right"><h3>читать</h3></a>
+</nav>
 
-					<div class="margin-8 clear"></div>
-
+</div>
 
+</div>
 
-				</div>
+<div class="wrapper">
 
+           <div class="container">
 
-				<div class="col-lg-3 col-lg-pull-9">
 
-					<div class="panel panel-info hidden-xs">
-						<div class="panel-heading"><div class="sidebar-header">Поиск</div></div>
-						<div class="panel-body">
-							<form role="search">
-								<div class="form-group">
-									<div class="input-group">
-										<input type="search" class="form-control input-lg" placeholder="Ваш запрос">
-										<div class="input-group-btn">
-											<button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-										</div>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
 
-					<div class="panel panel-info">
-						<div class="panel-heading"><div class="sidebar-header">Вход</div></div>
-						<div class="panel-body">
+            <div class="row">
 
-							<form role="form">
-								<div class="form-group">
-									<input type="text" class="form-control input-lg" placeholder="Логин">
-								</div>
-								<div class="form-group">
-									<input type="password" class="form-control input-lg" placeholder="Пароль">
-								</div>
 
-								<button type="submit" class="btn btn-warning pull-right">вход</button>
 
-							</form>
+              <div class="col-lg-9 col-lg-push-3">
 
-						</div>
-					</div>
+                <form role="search" class="visible-xs">
 
+                  <div class="form-group">
 
-					<div class="panel panel-info">
-						<div class="panel-heading"><div class="sidebar-header">Вход</div></div>
-						<div class="panel-body">
-							
-							<p>31.02.2017</p>
-							<p>Мы запустили новый сервис</p>
+                    <div class="input-group">
 
-						</div>
-					</div>
+                      <input type="search" class="form-control input-lg" placeholder="Ваш запрос">
 
+                      <div class="inpunt-group-btn">
 
-					<div class="panel panel-info">
-						<div class="panel-heading"><div class="sidebar-header">Рейтинг фильмов</div></div>
-						<div class="panel-body">
+      <button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
 
-							<ul class="list-group">
+                        
 
-								<li class="list-group-item list-group-warning">
-									<span class="badge">8.9</span>
-									<a href="show.html">Интерстеллар</a>
-								</li>
+                      </div>
 
-								<li class="list-group-item list-group-warning">
-									<span class="badge">8.7</span>
-									<a href="#">Безумный макс</a>
-								</li>
+                    </div>
 
-								<li class="list-group-item list-group-warning">
-									<span class="badge">8.3</span>
-									<a href="#">Матрица</a>
-								</li>
+                  </div>
 
-								<li class="list-group-item list-group-warning">
-									<span class="badge">8.1</span>
-									<a href="#">Облачный атлас</a>
-								</li>
+                </form>
 
-								<li class="list-group-item list-group-warning">
-									<span class="badge">8.9</span>
-									<a href="show.html">Интерстеллар</a>
-								</li>
 
-								<li class="list-group-item list-group-warning">
-									<span class="badge">8.7</span>
-									<a href="#">Безумный макс</a>
-								</li>
 
-								<li class="list-group-item list-group-warning">
-									<span class="badge">8.3</span>
-									<a href="#">Матрица</a>
-								</li>
+                <h2>Книги, которые нужно прочитать</h2>
 
-								<li class="list-group-item list-group-warning">
-									<span class="badge">8.1</span>
-									<a href="#">Облачный атлас</a>
-								</li>
+                <hr>
 
-							</ul>
+                <div class="row">
 
-						</div>
-					</div>
 
-				</div>
 
-				</div>
+          <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
 
-			</div>
+            <a href="show.html"><img src="assets/img/inter.png" alt="Мадам Бовари"></a>
 
-			<div class="clear"></div>
+            <div class="film_label"><a href="show.html">Гюстав Флобер,  "Мадам Бовари"</a></div>
 
-		</div>
+          </div>
 
 
-		<footer>
 
-			<div class="container">
-				<p class="text-center"> <a href="https://www.kinopoisk.ru">KinoBaza</a> </p>
-			</div>
+          <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
 
-		</footer>
+            <a href="show.html"><img src="assets/img/matrix.png" alt="Хаджи-Мурат"></a>
 
+            <div class="film_label"><a href="show.html">Лев Толстой,  "Хаджи-Мурат"</a></div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          </div>
 
-		<script src="assets/js/bootstrap.min.js"></script>
-	</body>
+
+
+          <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+            <a href="show.html"><img src="assets/img/cloud.png" alt="Отцы и дети"></a>
+
+            <div class="film_label"><a href="show.html">Иван Тургенев, Отцы и дети</a></div>
+
+          </div>
+
+
+
+          <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+            <a href="show.html"><img src="assets/img/max.png" alt="Скучная история"></a>
+
+            <div class="film_label"><a href="show.html">А.П. Чехов, Скучная история</a></div>
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+
+        <div class="margin-8"></div>
+
+
+
+        <h2>Топ любимых книг</h2>
+
+        <hr>
+
+        <div class="row">
+
+
+
+            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+              <a href="#"><img src="assets/img/xfiles.png" alt=""></a>
+
+              <div class="film_label"><a href="#">Стендаль, Красное и черное</a></div>
+
+            </div>
+
+
+
+            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+              <a href="#"><img src="assets/img/silicon.png" alt=""></a>
+
+              <div class="film_label"><a href="#">Ги де Мопассан, Пышка</a></div>
+
+            </div>
+
+
+
+            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+              <a href="#"><img src="assets/img/dead.png" alt=""></a>
+
+              <div class="film_label"><a href="#">Бабель,  Конармия</a></div>
+
+            </div>
+
+
+
+            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+              <a href="#"><img src="assets/img/breakingbad.png" alt=""></a>
+
+              <div class="film_label"><a href="#">Дэн Симмонс, Террор</a></div>
+
+            </div>
+
+
+
+          </div>
+
+          <hr>
+
+
+
+          <div class="margin-8"></div>
+
+
+
+
+
+          <a href="#"><h3>Цитаты из книг</h3></a>
+
+          <hr>
+
+          <p>
+
+            "...Иной раз какое-нибудь неожиданное происшествие влечет за собой бесконечные перипетии, и декорация меняется."<br>
+
+            <br>
+
+            Гюстав Флобер,  Мадам Бовари
+
+          </p>
+
+
+
+          <div class="margin-8"></div>
+
+
+
+          <a href="#"><h3>Цитаты из книг</h3></a>
+
+          <hr>
+
+          <p>
+
+            "Человек все в состоянии понять - и как трепещет эфир, и что на солнце происходит; а как другой человек может иначе сморкаться чем он сам сморкается, этого он понять не в состоянии.
+
+            "Время (дело известное) летит иногда птицей, иногда ползет червяком; но человеку бывает особенно хорошо тогда, когда он даже не замечает – скоро ли, тихо ли оно проходит."<br>
+
+            <br>
+
+            Иван Тургенев, Отцы и дети
+
+          </p>
+
+          <div class="margin-8"></div>
+
+
+
+          <a href="#"><h3>Цитаты из книг</h3></a>
+
+          <hr>
+
+          <p>
+
+            "...Говорят, что философы и истинные мудрецы равнодушны. Неправда, равнодушие – это паралич души, преждевременная смерть."
+
+            "...главный элемент творчества – чувство личной свободы"<br>
+
+            <br>
+
+            А.П. Чехов, Скучная история
+
+          </p>
+
+          <div class="margin-8"></div>
+
+
+
+          <a href="#"><h3>Цитаты из книг</h3></a>
+
+          <hr>
+
+          <p>
+
+            "Стоит только человеку сделать глупость, как он пытается тотчас же сослаться на свои добрые намерения." <br>
+
+            "Мысль вызывает страдания."<br>
+
+            <br>
+
+            Стендаль, Красное и черное
+
+          </p>
+
+          
+
+          <div class="margin-8"></div>
+
+
+
+        </div>
+
+
+
+      <div class="col-lg-3 col-lg-pull-9">
+
+
+
+          <div class="panel panel-info hidden-xs">
+
+            <div class="panel-heading"><div class="sidebar-header">Поиск</div></div>
+
+            <div class="panel-body">
+
+              <form role="search">
+
+                <div class="form-group">
+
+                  <div class="input-group">
+
+                    <input type="search" class="form-control input-lg" placeholder="Ваш запрос">
+
+                    <div class="input-group-btn">
+
+                      <button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </form>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="panel panel-info">
+
+            <div class="panel-heading"><div class="sidebar-header">Вход</div></div>
+
+            <div class="panel-body">
+
+
+
+              <form role="form">
+
+                <div class="form-group">
+
+                  <input type="text" class="form-control input-lg" placeholder="Логин">
+
+                </div>
+
+                <div class="form-group">
+
+                  <input type="password" class="form-control input-lg" placeholder="Пароль">
+
+                </div>
+
+
+
+                <button type="submit" class="btn btn-warning pull-right">вход</button>
+
+
+
+              </form>
+
+
+
+            </div>
+
+          </div>
+
+
+
+          <div class="panel panel-info">
+
+            <div class="panel-heading"><div class="sidebar-header">О книгах</div></div>
+
+            <div class="panel-body">
+
+              
+
+              <p>"...книгам обязан я сведениями, быть может, более обширными, чем те, которые я извлек из достаточно разнообразных ситуаций своей собственной жизни. Написанное письмо научило меня слушать человеческий голос, так же как великая неподвижность статуй — оценивать значение жестов. А жизнь, напротив, многое прояснила для меня в книгах.” </p>
+
+              <p>Маргерит Юрсенар, Воспоминания Адриана </p>
+
+
+
+            </div>
+
+          </div>
+
+
+
+          <div class="panel panel-info">
+
+            <div class="panel-heading"><div class="sidebar-header">Рейтинг книг</div></div>
+
+            <div class="panel-body">
+
+
+
+              <ul class="list-group">
+
+
+
+                <li class="list-group-item list-group-warning">
+
+                  <span class="badge">8.9</span>
+
+                  <a href="show.html">Гюстав Флобер,  "Мадам Бовари"</a>
+
+                </li>
+
+
+
+                <li class="list-group-item list-group-warning">
+
+                  <span class="badge">8.7</span>
+
+                  <a href="#">Лев Толстой,  "Хаджи-Мурат"</a>
+
+                </li>
+
+
+
+                <li class="list-group-item list-group-warning">
+
+                  <span class="badge">8.3</span>
+
+                  <a href="#">Дэн Симмонс, "Террор"</a>
+
+                </li>
+
+
+
+                <li class="list-group-item list-group-warning">
+
+                  <span class="badge">8.1</span>
+
+                  <a href="#">Иван Тургенев, "Отцы и дети"</a>
+
+                </li>
+
+
+
+                <li class="list-group-item list-group-warning">
+
+                  <span class="badge">8.9</span>
+
+                  <a href="show.html">А.П. Чехов, "Скучная история"</a>
+
+                </li>
+
+
+
+                <li class="list-group-item list-group-warning">
+
+                  <span class="badge">8.7</span>
+
+                  <a href="#">Стендаль, "Красное и черное"</a>
+
+                </li>
+
+
+
+                <li class="list-group-item list-group-warning">
+
+                  <span class="badge">8.3</span>
+
+                  <a href="#">Уильям Голдинг, "Повелитель мух"" </a>
+
+                </li>
+
+
+
+                <li class="list-group-item list-group-warning">
+
+                  <span class="badge">8.1</span>
+
+                  <a href="#">Ги де Мопассан, "Пышка"" </a>
+
+                </li>
+
+
+
+              </ul>
+
+
+
+              </ul>
+
+
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="clear"></div>
+
+
+
+    </div>
+
+
+
+<footer>
+
+
+
+      <div class="container">
+
+        <p class="text-center"> <a href="http://www.e-reading.club/top100_rating_books.php">книжная полка e-reading.club</a> </p>
+
+      </div>
+
+
+
+    </footer>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+  
+
+</body>
+
 </html>
