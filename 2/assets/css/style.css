@@ -37,20 +37,7 @@
 @media (max-width: 767px) {
 	.nav-pills>li {
 		float: none;
-	}
-
-
-
-@media (max-width: 962px) {
-	margin-top: 0;
-	}
-
-
-
-
-
-
-	.nav-pills {
+	}	.nav-pills {
 		text-align: center;
 	}
 
